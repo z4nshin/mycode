@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/56178/pyrepl/trunk/pyrepl
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4596/pyrepl/trunk/pyrepl/LICENSE
+END
+encopyright.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5436/pyrepl/trunk/pyrepl/encopyright.py
+END
+pyrepl_utilsmodule.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4601/pyrepl/trunk/pyrepl/pyrepl_utilsmodule.c
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4605/pyrepl/trunk/pyrepl/TODO
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5436/pyrepl/trunk/pyrepl/setup.py
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4593/pyrepl/trunk/pyrepl/CHANGES
+END
+PKG-INFO
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4584/pyrepl/trunk/pyrepl/PKG-INFO
+END
+pythoni
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7801/pyrepl/trunk/pyrepl/pythoni
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4638/pyrepl/trunk/pyrepl/MANIFEST.in
+END
+pythoni1
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/53573/pyrepl/trunk/pyrepl/pythoni1
+END
+CREDITS
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4606/pyrepl/trunk/pyrepl/CREDITS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5435/pyrepl/trunk/pyrepl/README
+END
+pyrepl.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4598/pyrepl/trunk/pyrepl/pyrepl.html
+END

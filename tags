@@ -1,0 +1,452 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BasicTestRunner	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^class BasicTestRunner:$/;"	c
+BugsTestCase	pys60/pyrepl/pyrepl/tests/bugs.py	/^class BugsTestCase(ReaderTestCase):$/;"	c
+CmdReader	pys60/pyrepl/pyrepl/cmdrepl.py	/^class CmdReader(CR):$/;"	c
+CmdRepl	pys60/pyrepl/pyrepl/cmdrepl.py	/^    class CmdRepl(klass):$/;"	c	function:replize
+Command	pys60/pyrepl/pyrepl/commands.py	/^class Command(object):$/;"	c
+Completer	pys60/pyrepl/pyrepl/completer.py	/^class Completer:$/;"	c
+CompletingReader	pys60/pyrepl/pyrepl/completing_reader.py	/^class CompletingReader(Reader):$/;"	c
+Console	pys60/pyrepl/pyrepl/console.py	/^class Console:$/;"	c
+EditCommand	pys60/pyrepl/pyrepl/commands.py	/^class EditCommand(Command):$/;"	c
+EqualsAnything	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^class EqualsAnything(object):$/;"	c
+Event	pys60/pyrepl/pyrepl/console.py	/^class Event:$/;"	c
+EventQueue	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^class EventQueue(object):$/;"	c
+FakeStdin	pys60/pyrepl/pyrepl/pygame_console.py	/^class FakeStdin:$/;"	c
+FakeStdout	pys60/pyrepl/pyrepl/pygame_console.py	/^class FakeStdout:$/;"	c
+FinishCommand	pys60/pyrepl/pyrepl/commands.py	/^class FinishCommand(Command):$/;"	c
+HistoricalReader	pys60/pyrepl/pyrepl/historical_reader.py	/^class HistoricalReader(R):$/;"	c
+InputTranslator	pys60/pyrepl/pyrepl/input.py	/^class InputTranslator(object):$/;"	c
+KeySpecError	pys60/pyrepl/pyrepl/keymap.py	/^class KeySpecError(Exception):$/;"	c
+KeySpecError	pys60/pyrepl/pyrepl/pygame_keymap.py	/^class KeySpecError(Exception):$/;"	c
+KeymapTranslator	pys60/pyrepl/pyrepl/input.py	/^class KeymapTranslator(InputTranslator):$/;"	c
+KillCommand	pys60/pyrepl/pyrepl/commands.py	/^class KillCommand(Command):$/;"	c
+Me	pys60/pyrepl/pyrepl/python_reader.py	/^        class Me(FileDescriptor):$/;"	c	function:ReaderConsole.twistedinteract
+MotionCommand	pys60/pyrepl/pyrepl/commands.py	/^class MotionCommand(Command):$/;"	c
+MySocket	promiscuous.py	/^class MySocket(socket):$/;"	c
+PyGameConsole	pys60/pyrepl/pyrepl/pygame_console.py	/^class PyGameConsole(Console):$/;"	c
+PythonicReader	pys60/pyrepl/pyrepl/python_reader.py	/^class PythonicReader(CompletingReader, HistoricalReader):$/;"	c
+QITrans	pys60/pyrepl/pyrepl/commands.py	/^class QITrans(object):$/;"	c
+Reader	pys60/pyrepl/pyrepl/reader.py	/^class Reader(object):$/;"	c
+ReaderConsole	pys60/pyrepl/pyrepl/python_reader.py	/^class ReaderConsole(code.InteractiveInterpreter):$/;"	c
+ReaderTestCase	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^class ReaderTestCase(unittest.TestCase):$/;"	c
+ReadlineAlikeReader	pys60/pyrepl/pyrepl/readline.py	/^class ReadlineAlikeReader(HistoricalReader, CompletingReader):$/;"	c
+SimpleTestCase	pys60/pyrepl/pyrepl/tests/basic.py	/^class SimpleTestCase(ReaderTestCase):$/;"	c
+Term	pys60/pyrepl/pyrepl/fancy_termios.py	/^class Term(TermState):$/;"	c
+TermState	pys60/pyrepl/pyrepl/fancy_termios.py	/^class TermState:$/;"	c
+TestConsole	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^class TestConsole(Console):$/;"	c
+TestReader	pys60/pyrepl/pyrepl/completing_reader.py	/^    class TestReader(CompletingReader):$/;"	c	function:test
+TestReader	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^class TestReader(Reader):$/;"	c
+TestTerminal	pys60/pyrepl/pyrepl/test/test_functional.py	/^class TestTerminal(object):$/;"	c
+UnixConsole	pys60/pyrepl/pyrepl/unix_console.py	/^class UnixConsole(Console):$/;"	c
+WishesTestCase	pys60/pyrepl/pyrepl/tests/wishes.py	/^class WishesTestCase(ReaderTestCase):$/;"	c
+YankCommand	pys60/pyrepl/pyrepl/commands.py	/^class YankCommand(Command):$/;"	c
+_ReadlineWrapper	pys60/pyrepl/pyrepl/readline.py	/^class _ReadlineWrapper(object):$/;"	c
+__eq__	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def __eq__(self, other):$/;"	m	class:EqualsAnything	file:
+__hide_cursor	pys60/pyrepl/pyrepl/unix_console.py	/^    def __hide_cursor(self):$/;"	m	class:UnixConsole	file:
+__init__	promiscuous.py	/^	def __init__(self, family, type, proto=0, _sock=None):$/;"	m	class:MySocket
+__init__	pys60/pyrepl/pyrepl/cmdrepl.py	/^            def __init__(self, *args, **kw):$/;"	m	class:replize/CmdRepl
+__init__	pys60/pyrepl/pyrepl/cmdrepl.py	/^    def __init__(self, completions):$/;"	m	class:CmdReader
+__init__	pys60/pyrepl/pyrepl/commands.py	/^    def __init__(self, reader, (event_name, event)):$/;"	m	class:Command
+__init__	pys60/pyrepl/pyrepl/completer.py	/^    def __init__(self, ns):$/;"	m	class:Completer
+__init__	pys60/pyrepl/pyrepl/completing_reader.py	/^    def __init__(self, console):$/;"	m	class:CompletingReader
+__init__	pys60/pyrepl/pyrepl/console.py	/^    def __init__(self, evt, data, raw=''):$/;"	m	class:Event
+__init__	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def __init__(self, fd=0):$/;"	m	class:Term
+__init__	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def __init__(self, tuples):$/;"	m	class:TermState
+__init__	pys60/pyrepl/pyrepl/historical_reader.py	/^    def __init__(self, console):$/;"	m	class:HistoricalReader
+__init__	pys60/pyrepl/pyrepl/input.py	/^    def __init__(self, keymap, verbose=0,$/;"	m	class:KeymapTranslator
+__init__	pys60/pyrepl/pyrepl/pygame_console.py	/^    def __init__(self):$/;"	m	class:PyGameConsole
+__init__	pys60/pyrepl/pyrepl/pygame_console.py	/^    def __init__(self, con):$/;"	m	class:FakeStdin
+__init__	pys60/pyrepl/pyrepl/pygame_console.py	/^    def __init__(self, con):$/;"	m	class:FakeStdout
+__init__	pys60/pyrepl/pyrepl/python_reader.py	/^    def __init__(self, console, locals,$/;"	m	class:PythonicReader
+__init__	pys60/pyrepl/pyrepl/python_reader.py	/^    def __init__(self, console, locals=None):$/;"	m	class:ReaderConsole
+__init__	pys60/pyrepl/pyrepl/reader.py	/^    def __init__(self, console):$/;"	m	class:Reader
+__init__	pys60/pyrepl/pyrepl/readline.py	/^    def __init__(self, console):$/;"	m	class:ReadlineAlikeReader
+__init__	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def __init__(self, events, testcase, verbose=False):$/;"	m	class:TestConsole
+__init__	pys60/pyrepl/pyrepl/unix_console.py	/^        def __init__(self):$/;"	m	class:maybe_add_baudrate/poll
+__init__	pys60/pyrepl/pyrepl/unix_console.py	/^    def __init__(self, f_in=0, f_out=1, term=None, encoding=None):$/;"	m	class:UnixConsole
+__init__	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^    def __init__(self, fd):$/;"	m	class:EventQueue
+__maybe_write_code	pys60/pyrepl/pyrepl/unix_console.py	/^    def __maybe_write_code(self, fmt, *args):$/;"	m	class:UnixConsole	file:
+__move_short	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_short(self, x, y):$/;"	m	class:UnixConsole	file:
+__move_tall	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_tall(self, x, y):$/;"	m	class:UnixConsole	file:
+__move_x_cub1_cuf1	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_x_cub1_cuf1(self, x):$/;"	m	class:UnixConsole	file:
+__move_x_cub_cuf	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_x_cub_cuf(self, x):$/;"	m	class:UnixConsole	file:
+__move_x_hpa	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_x_hpa(self, x):$/;"	m	class:UnixConsole	file:
+__move_y_cuu1_cud1	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_y_cuu1_cud1(self, y):$/;"	m	class:UnixConsole	file:
+__move_y_cuu_cud	pys60/pyrepl/pyrepl/unix_console.py	/^    def __move_y_cuu_cud(self, y):$/;"	m	class:UnixConsole	file:
+__repr__	pys60/pyrepl/pyrepl/console.py	/^    def __repr__(self):$/;"	m	class:Event	file:
+__show_cursor	pys60/pyrepl/pyrepl/unix_console.py	/^    def __show_cursor(self):$/;"	m	class:UnixConsole	file:
+__sigwinch	pys60/pyrepl/pyrepl/unix_console.py	/^    def __sigwinch(self, signum, frame):$/;"	m	class:UnixConsole	file:
+__tputs	pys60/pyrepl/pyrepl/unix_console.py	/^    def __tputs(self, fmt, prog=delayprog):$/;"	m	class:UnixConsole	file:
+__write	pys60/pyrepl/pyrepl/unix_console.py	/^    def __write(self, text):$/;"	m	class:UnixConsole	file:
+__write_changed_line	pys60/pyrepl/pyrepl/unix_console.py	/^    def __write_changed_line(self, y, oldline, newline, px):$/;"	m	class:UnixConsole	file:
+__write_code	pys60/pyrepl/pyrepl/unix_console.py	/^    def __write_code(self, fmt, *args):$/;"	m	class:UnixConsole	file:
+_compile_keymap	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def _compile_keymap(keymap):$/;"	f
+_histline	pys60/pyrepl/pyrepl/readline.py	/^    def _histline(self, line):$/;"	m	class:_ReadlineWrapper
+_make_module_list	pys60/pyrepl/pyrepl/module_lister.py	/^def _make_module_list():$/;"	f
+_make_module_list_dir	pys60/pyrepl/pyrepl/module_lister.py	/^def _make_module_list_dir(dir, suffs, prefix=''):$/;"	f
+_make_stub	pys60/pyrepl/pyrepl/readline.py	/^def _make_stub(_name, _ret):$/;"	f
+_make_unctrl_map	pys60/pyrepl/pyrepl/reader.py	/^def _make_unctrl_map():$/;"	f
+_my_getstr	pys60/pyrepl/pyrepl/unix_console.py	/^def _my_getstr(cap, optional=0):$/;"	f
+_my_unctrl	pys60/pyrepl/pyrepl/reader.py	/^    def _my_unctrl(c, u=_make_unctrl_map()):$/;"	f	function:_make_unctrl_map
+_parse_key1	pys60/pyrepl/pyrepl/keymap.py	/^def _parse_key1(key, s):$/;"	f
+_parse_key1	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def _parse_key1(key, s):$/;"	f
+_setup	pys60/pyrepl/pyrepl/readline.py	/^def _setup():$/;"	f
+_spawn	pys60/pyrepl/pyrepl/test/test_functional.py	/^    def _spawn(self, *args, **kwds):$/;"	m	class:TestTerminal
+_unctrl_map	pys60/pyrepl/pyrepl_utilsmodule.c	/^static char* _unctrl_map[255];$/;"	v	file:
+_unparse_keyf	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def _unparse_keyf(keyseq):$/;"	f
+accept	pys60/pyrepl/pyrepl/commands.py	/^class accept(FinishCommand):$/;"	c
+add_history	pys60/pyrepl/pyrepl/readline.py	/^    def add_history(self, line):$/;"	m	class:_ReadlineWrapper
+after_command	pys60/pyrepl/pyrepl/completing_reader.py	/^    def after_command(self, cmd):$/;"	m	class:CompletingReader
+after_command	pys60/pyrepl/pyrepl/reader.py	/^    def after_command(self, cmd):$/;"	m	class:Reader
+after_command	pys60/pyrepl/pyrepl/readline.py	/^    def after_command(self, cmd):$/;"	m	class:ReadlineAlikeReader
+as_list	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def as_list(self):$/;"	m	class:TermState
+attr_matches	pys60/pyrepl/pyrepl/completer.py	/^    def attr_matches(self, text):$/;"	m	class:Completer
+backspace	pys60/pyrepl/pyrepl/commands.py	/^class backspace(EditCommand):$/;"	c
+backward_kill_word	pys60/pyrepl/pyrepl/commands.py	/^class backward_kill_word(KillCommand):$/;"	c
+backward_word	pys60/pyrepl/pyrepl/commands.py	/^class backward_word(MotionCommand):$/;"	c
+beep	pys60/pyrepl/pyrepl/console.py	/^    def beep(self):$/;"	m	class:Console
+beep	pys60/pyrepl/pyrepl/pygame_console.py	/^    def beep(self):$/;"	m	class:PyGameConsole
+beep	pys60/pyrepl/pyrepl/unix_console.py	/^    def beep(self):$/;"	m	class:UnixConsole
+beginning_of_line	pys60/pyrepl/pyrepl/commands.py	/^class beginning_of_line(MotionCommand):$/;"	c
+bind	pys60/pyrepl/pyrepl/reader.py	/^    def bind(self, spec, command):$/;"	m	class:Reader
+blit_a_char	pys60/pyrepl/pyrepl/pygame_console.py	/^    def blit_a_char(self, linen, charn):$/;"	m	class:PyGameConsole
+bol	pys60/pyrepl/pyrepl/reader.py	/^    def bol(self, p=None):$/;"	m	class:Reader
+bool	pys60/pyrepl/pyrepl/pygame_console.py	/^    def bool(x):$/;"	f
+bow	pys60/pyrepl/pyrepl/reader.py	/^    def bow(self, p=None):$/;"	m	class:Reader
+build_menu	pys60/pyrepl/pyrepl/completing_reader.py	/^def build_menu(cons, wordlist, start):$/;"	f
+calc_screen	pys60/pyrepl/pyrepl/completing_reader.py	/^    def calc_screen(self):$/;"	m	class:CompletingReader
+calc_screen	pys60/pyrepl/pyrepl/reader.py	/^    def calc_screen(self):$/;"	m	class:Reader
+change_encoding	pys60/pyrepl/pyrepl/unix_console.py	/^    def change_encoding(self, encoding):$/;"	m	class:UnixConsole
+char_pos	pys60/pyrepl/pyrepl/pygame_console.py	/^    def char_pos(self, x, y):$/;"	m	class:PyGameConsole
+char_rect	pys60/pyrepl/pyrepl/pygame_console.py	/^    def char_rect(self, x, y):$/;"	m	class:PyGameConsole
+clear	pys60/pyrepl/pyrepl/console.py	/^    def clear(self):$/;"	m	class:Console
+clear	pys60/pyrepl/pyrepl/pygame_console.py	/^    def clear(self):$/;"	m	class:PyGameConsole
+clear	pys60/pyrepl/pyrepl/unix_console.py	/^    def clear(self):$/;"	m	class:UnixConsole
+clear_history	pys60/pyrepl/pyrepl/readline.py	/^    def clear_history(self):$/;"	m	class:_ReadlineWrapper
+clear_screen	pys60/pyrepl/pyrepl/commands.py	/^class clear_screen(Command):$/;"	c
+cmdloop	pys60/pyrepl/pyrepl/cmdrepl.py	/^        def cmdloop(self, intro=None):$/;"	m	class:replize/CmdRepl
+cmpltn_reset	pys60/pyrepl/pyrepl/completing_reader.py	/^    def cmpltn_reset(self):$/;"	m	class:CompletingReader
+cocoainteract	pys60/pyrepl/pyrepl/python_reader.py	/^    def cocoainteract(self, inputfilehandle=None, outputfilehandle=None):$/;"	m	class:ReaderConsole
+collect_keymap	pys60/pyrepl/pyrepl/cmdrepl.py	/^    def collect_keymap(self):$/;"	m	class:CmdReader
+collect_keymap	pys60/pyrepl/pyrepl/completing_reader.py	/^    def collect_keymap(self):$/;"	m	class:CompletingReader
+collect_keymap	pys60/pyrepl/pyrepl/historical_reader.py	/^    def collect_keymap(self):$/;"	m	class:HistoricalReader
+collect_keymap	pys60/pyrepl/pyrepl/python_reader.py	/^    def collect_keymap(self):$/;"	m	class:PythonicReader
+collect_keymap	pys60/pyrepl/pyrepl/reader.py	/^    def collect_keymap(self):$/;"	m	class:Reader
+collect_keymap	pys60/pyrepl/pyrepl/readline.py	/^    def collect_keymap(self):$/;"	m	class:ReadlineAlikeReader
+colors	pys60/pyrepl/pyrepl/pygame_console.py	/^class colors:$/;"	c
+compare	pys60/pyrepl/pyrepl/module_lister.py	/^    def compare(x, y):$/;"	f	function:_make_module_list
+compile_keymap	pys60/pyrepl/pyrepl/keymap.py	/^def compile_keymap(keymap, empty=''):$/;"	f
+compile_keymap	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def compile_keymap(keymap):$/;"	f
+complete	pys60/pyrepl/pyrepl/completer.py	/^    def complete(self, text):$/;"	m	class:Completer
+complete	pys60/pyrepl/pyrepl/completing_reader.py	/^class complete(commands.Command):$/;"	c
+copy	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def copy(self):$/;"	m	class:TermState
+copy_code_with_changes	pys60/pyrepl/pyrepl/copy_code.py	/^def copy_code_with_changes(codeobject,$/;"	f
+delete	pys60/pyrepl/pyrepl/commands.py	/^class delete(EditCommand):$/;"	c
+digit_arg	pys60/pyrepl/pyrepl/commands.py	/^class digit_arg(Command):$/;"	c
+disp_str	pys60/pyrepl/pyrepl/reader.py	/^    def disp_str(buffer, join=''.join, uc=_my_unctrl):$/;"	f	function:_make_unctrl_map
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:Command
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:accept
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:backspace
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:backward_kill_word
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:backward_word
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:beginning_of_line
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:clear_screen
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:delete
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:digit_arg
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:down
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:end
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:end_of_line
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:forward_word
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:help
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:home
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:insert_nl
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:interrupt
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:invalid_command
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:invalid_key
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:kill_line
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:kill_word
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:left
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:qIHelp
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:quoted_insert
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:refresh
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:repaint
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:right
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:self_insert
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:suspend
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:transpose_characters
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:unix_line_discard
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:unix_word_rubout
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:up
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:yank
+do	pys60/pyrepl/pyrepl/commands.py	/^    def do(self):$/;"	m	class:yank_pop
+do	pys60/pyrepl/pyrepl/completing_reader.py	/^    def do(self):$/;"	m	class:complete
+do	pys60/pyrepl/pyrepl/completing_reader.py	/^    def do(self):$/;"	m	class:self_insert
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:first_history
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:forward_history_isearch
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_add_character
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_backspace
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_backwards
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_cancel
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_end
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:isearch_forwards
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:last_history
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:next_history
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:operate_and_get_next
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:previous_history
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:restore_history
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:reverse_history_isearch
+do	pys60/pyrepl/pyrepl/historical_reader.py	/^    def do(self):$/;"	m	class:yank_arg
+do	pys60/pyrepl/pyrepl/python_reader.py	/^    def do(self):$/;"	m	class:maybe_accept
+do	pys60/pyrepl/pyrepl/readline.py	/^    def do(self):$/;"	m	class:maybe_accept
+doRead	pys60/pyrepl/pyrepl/python_reader.py	/^            def doRead(self):$/;"	m	class:ReaderConsole.twistedinteract/Me
+do_cmd	pys60/pyrepl/pyrepl/reader.py	/^    def do_cmd(self, cmd):$/;"	m	class:Reader
+down	pys60/pyrepl/pyrepl/commands.py	/^class down(MotionCommand):$/;"	c
+eat_it	pys60/pyrepl/pyrepl/python_reader.py	/^def eat_it(*args):$/;"	f
+empty	pys60/pyrepl/pyrepl/input.py	/^    def empty(self):$/;"	m	class:InputTranslator
+empty	pys60/pyrepl/pyrepl/input.py	/^    def empty(self):$/;"	m	class:KeymapTranslator
+empty	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^    def empty(self):$/;"	m	class:EventQueue
+end	pys60/pyrepl/pyrepl/commands.py	/^class end(MotionCommand):$/;"	c
+end_of_line	pys60/pyrepl/pyrepl/commands.py	/^class end_of_line(MotionCommand):$/;"	c
+eol	pys60/pyrepl/pyrepl/reader.py	/^    def eol(self, p=None):$/;"	m	class:Reader
+eow	pys60/pyrepl/pyrepl/reader.py	/^    def eow(self, p=None):$/;"	m	class:Reader
+error	pys60/pyrepl/pyrepl/reader.py	/^    def error(self, msg="none"):$/;"	m	class:Reader
+error	pys60/pyrepl/pyrepl/readline.py	/^    def error(self, msg="none"):$/;"	m	class:ReadlineAlikeReader
+execute	pys60/pyrepl/pyrepl/python_reader.py	/^    def execute(self, text):$/;"	m	class:ReaderConsole
+fileno	pys60/pyrepl/pyrepl/python_reader.py	/^            def fileno(self):$/;"	m	class:ReaderConsole.twistedinteract/Me
+find_modules	pys60/pyrepl/pyrepl/module_lister.py	/^def find_modules(stem):$/;"	f
+finish	pys60/pyrepl/pyrepl/completing_reader.py	/^    def finish(self):$/;"	m	class:CompletingReader
+finish	pys60/pyrepl/pyrepl/console.py	/^    def finish(self):$/;"	m	class:Console
+finish	pys60/pyrepl/pyrepl/historical_reader.py	/^    def finish(self):$/;"	m	class:HistoricalReader
+finish	pys60/pyrepl/pyrepl/pygame_console.py	/^    def finish(self):$/;"	m	class:PyGameConsole
+finish	pys60/pyrepl/pyrepl/reader.py	/^    def finish(self):$/;"	m	class:Reader
+finish	pys60/pyrepl/pyrepl/unix_console.py	/^    def finish(self):$/;"	m	class:UnixConsole
+first_history	pys60/pyrepl/pyrepl/historical_reader.py	/^class first_history(commands.Command):$/;"	c
+flush	pys60/pyrepl/pyrepl/pygame_console.py	/^    def flush(self):$/;"	m	class:FakeStdout
+flush	pys60/pyrepl/pyrepl/pygame_console.py	/^    def flush(self):$/;"	m	class:PyGameConsole
+flushoutput	pys60/pyrepl/pyrepl/console.py	/^    def flushoutput(self):$/;"	m	class:Console
+flushoutput	pys60/pyrepl/pyrepl/pygame_console.py	/^    def flushoutput(self):$/;"	m	class:PyGameConsole
+flushoutput	pys60/pyrepl/pyrepl/unix_console.py	/^    def flushoutput(self):$/;"	m	class:UnixConsole
+forgetinput	pys60/pyrepl/pyrepl/console.py	/^    def forgetinput(self):$/;"	m	class:Console
+forgetinput	pys60/pyrepl/pyrepl/pygame_console.py	/^    def forgetinput(self):$/;"	m	class:PyGameConsole
+forgetinput	pys60/pyrepl/pyrepl/unix_console.py	/^    def forgetinput(self):$/;"	m	class:UnixConsole
+forward_history_isearch	pys60/pyrepl/pyrepl/historical_reader.py	/^class forward_history_isearch(commands.Command):$/;"	c
+forward_word	pys60/pyrepl/pyrepl/commands.py	/^class forward_word(MotionCommand):$/;"	c
+get	pys60/pyrepl/pyrepl/commands.py	/^    def get(self):$/;"	m	class:QITrans
+get	pys60/pyrepl/pyrepl/input.py	/^    def get(self):$/;"	m	class:InputTranslator
+get	pys60/pyrepl/pyrepl/input.py	/^    def get(self):$/;"	m	class:KeymapTranslator
+get	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^    def get(self):$/;"	m	class:EventQueue
+get_arg	pys60/pyrepl/pyrepl/reader.py	/^    def get_arg(self, default=1):$/;"	m	class:Reader
+get_buffer	pys60/pyrepl/pyrepl/reader.py	/^    def get_buffer(self, encoding=None):$/;"	m	class:Reader
+get_class_members	pys60/pyrepl/pyrepl/completer.py	/^def get_class_members(klass):$/;"	f
+get_completer	pys60/pyrepl/pyrepl/readline.py	/^    def get_completer(self):$/;"	m	class:_ReadlineWrapper
+get_completer_delims	pys60/pyrepl/pyrepl/readline.py	/^    def get_completer_delims(self):$/;"	m	class:_ReadlineWrapper
+get_completions	pys60/pyrepl/pyrepl/cmdrepl.py	/^    def get_completions(self, stem):$/;"	m	class:CmdReader
+get_completions	pys60/pyrepl/pyrepl/completing_reader.py	/^        def get_completions(self, stem):$/;"	m	class:test/TestReader
+get_completions	pys60/pyrepl/pyrepl/completing_reader.py	/^    def get_completions(self, stem):$/;"	m	class:CompletingReader
+get_completions	pys60/pyrepl/pyrepl/python_reader.py	/^    def get_completions(self, stem):$/;"	m	class:PythonicReader
+get_completions	pys60/pyrepl/pyrepl/readline.py	/^    def get_completions(self, stem):$/;"	m	class:ReadlineAlikeReader
+get_current_history_length	pys60/pyrepl/pyrepl/readline.py	/^    def get_current_history_length(self):$/;"	m	class:_ReadlineWrapper
+get_ether_layer	promiscuous.py	/^def get_ether_layer(packet):$/;"	f
+get_event	pys60/pyrepl/pyrepl/console.py	/^    def get_event(self, block=1):$/;"	m	class:Console
+get_event	pys60/pyrepl/pyrepl/pygame_console.py	/^    def get_event(self, block=1):$/;"	m	class:PyGameConsole
+get_event	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def get_event(self, block=1):$/;"	m	class:TestConsole
+get_event	pys60/pyrepl/pyrepl/unix_console.py	/^    def get_event(self, block=1):$/;"	m	class:UnixConsole
+get_history_item	pys60/pyrepl/pyrepl/readline.py	/^    def get_history_item(self, index):$/;"	m	class:_ReadlineWrapper
+get_history_length	pys60/pyrepl/pyrepl/readline.py	/^    def get_history_length(self):$/;"	m	class:_ReadlineWrapper
+get_ip_layer	promiscuous.py	/^def get_ip_layer(packet):$/;"	f
+get_item	pys60/pyrepl/pyrepl/historical_reader.py	/^    def get_item(self, i):$/;"	m	class:HistoricalReader
+get_prompt	pys60/pyrepl/pyrepl/historical_reader.py	/^    def get_prompt(self, lineno, cursor_on_line):$/;"	m	class:HistoricalReader
+get_prompt	pys60/pyrepl/pyrepl/reader.py	/^    def get_prompt(self, lineno, cursor_on_line):$/;"	m	class:Reader
+get_prompt	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def get_prompt(self, lineno, cursor_on_line):$/;"	m	class:TestReader
+get_reader	pys60/pyrepl/pyrepl/readline.py	/^    def get_reader(self):$/;"	m	class:_ReadlineWrapper
+get_stem	pys60/pyrepl/pyrepl/completing_reader.py	/^    def get_stem(self):$/;"	m	class:CompletingReader
+get_stem	pys60/pyrepl/pyrepl/readline.py	/^    def get_stem(self):$/;"	m	class:ReadlineAlikeReader
+get_trimmed_history	pys60/pyrepl/pyrepl/readline.py	/^    def get_trimmed_history(self, maxlength):$/;"	m	class:ReadlineAlikeReader
+get_unicode	pys60/pyrepl/pyrepl/reader.py	/^    def get_unicode(self):$/;"	m	class:Reader
+getheightwidth	pys60/pyrepl/pyrepl/console.py	/^    def getheightwidth(self):$/;"	m	class:Console
+getheightwidth	pys60/pyrepl/pyrepl/pygame_console.py	/^    def getheightwidth(self):$/;"	m	class:PyGameConsole
+getheightwidth	pys60/pyrepl/pyrepl/unix_console.py	/^        def getheightwidth(self):$/;"	f	function:UnixConsole.repaint_prep
+getpending	pys60/pyrepl/pyrepl/console.py	/^    def getpending(self):$/;"	m	class:Console
+getpending	pys60/pyrepl/pyrepl/pygame_console.py	/^    def getpending(self):$/;"	m	class:PyGameConsole
+getpending	pys60/pyrepl/pyrepl/unix_console.py	/^        def getpending(self):$/;"	f	function:UnixConsole.beep
+global_matches	pys60/pyrepl/pyrepl/completer.py	/^    def global_matches(self, text):$/;"	m	class:Completer
+handle1	pys60/pyrepl/pyrepl/python_reader.py	/^    def handle1(self, block=1):$/;"	m	class:ReaderConsole
+handle1	pys60/pyrepl/pyrepl/reader.py	/^    def handle1(self, block=1):$/;"	m	class:Reader
+help	pys60/pyrepl/pyrepl/commands.py	/^class help(Command):$/;"	c
+home	pys60/pyrepl/pyrepl/commands.py	/^class home(MotionCommand):$/;"	c
+init_pyrepl_utils	pys60/pyrepl/pyrepl_utilsmodule.c	/^void init_pyrepl_utils(void)$/;"	f
+insert	pys60/pyrepl/pyrepl/reader.py	/^    def insert(self, text):$/;"	m	class:Reader
+insert	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^    def insert(self, event):$/;"	m	class:EventQueue
+insert_nl	pys60/pyrepl/pyrepl/commands.py	/^class insert_nl(EditCommand):$/;"	c
+install_keymap	pys60/pyrepl/pyrepl/pygame_console.py	/^    def install_keymap(self, keymap):$/;"	m	class:PyGameConsole
+interact	pys60/pyrepl/pyrepl/python_reader.py	/^    def interact(self):$/;"	m	class:ReaderConsole
+interrupt	pys60/pyrepl/pyrepl/commands.py	/^class interrupt(FinishCommand):$/;"	c
+invalid_command	pys60/pyrepl/pyrepl/commands.py	/^class invalid_command(Command):$/;"	c
+invalid_key	pys60/pyrepl/pyrepl/commands.py	/^class invalid_key(Command):$/;"	c
+is_kill	pys60/pyrepl/pyrepl/commands.py	/^def is_kill(command):$/;"	f
+is_yank	pys60/pyrepl/pyrepl/commands.py	/^def is_yank(command):$/;"	f
+isearch_add_character	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_add_character(commands.Command):$/;"	c
+isearch_backspace	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_backspace(commands.Command):$/;"	c
+isearch_backwards	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_backwards(commands.Command):$/;"	c
+isearch_cancel	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_cancel(commands.Command):$/;"	c
+isearch_end	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_end(commands.Command):$/;"	c
+isearch_forwards	pys60/pyrepl/pyrepl/historical_reader.py	/^class isearch_forwards(commands.Command):$/;"	c
+isearch_next	pys60/pyrepl/pyrepl/historical_reader.py	/^    def isearch_next(self):$/;"	m	class:HistoricalReader
+keyname	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def keyname(key):$/;"	f
+kill_line	pys60/pyrepl/pyrepl/commands.py	/^class kill_line(KillCommand):$/;"	c
+kill_range	pys60/pyrepl/pyrepl/commands.py	/^    def kill_range(self, start, end):$/;"	m	class:KillCommand
+kill_word	pys60/pyrepl/pyrepl/commands.py	/^class kill_word(KillCommand):$/;"	c
+last_command_is	pys60/pyrepl/pyrepl/reader.py	/^    def last_command_is(self, klass):$/;"	m	class:Reader
+last_history	pys60/pyrepl/pyrepl/historical_reader.py	/^class last_history(commands.Command):$/;"	c
+left	pys60/pyrepl/pyrepl/commands.py	/^class left(MotionCommand):$/;"	c
+main	pys60/pyrepl/pyrepl/python_reader.py	/^def main(use_pygame_console=0, interactmethod=default_interactmethod, print_banner=True, clear_main=True):$/;"	f
+make_default_syntax_table	pys60/pyrepl/pyrepl/reader.py	/^def make_default_syntax_table():$/;"	f
+maybe_accept	pys60/pyrepl/pyrepl/python_reader.py	/^class maybe_accept(commands.Command):$/;"	c
+maybe_accept	pys60/pyrepl/pyrepl/readline.py	/^class maybe_accept(commands.Command):$/;"	c
+maybe_add_baudrate	pys60/pyrepl/pyrepl/unix_console.py	/^def maybe_add_baudrate(dict, rate):$/;"	f
+mk_saver	pys60/pyrepl/pyrepl/python_reader.py	/^def mk_saver(reader):$/;"	f
+more_lines	pys60/pyrepl/pyrepl/simple_interact.py	/^    def more_lines(unicodetext):$/;"	f	function:run_multiline_interactive_console
+move_cursor	pys60/pyrepl/pyrepl/console.py	/^    def move_cursor(self, x, y):$/;"	m	class:Console
+move_cursor	pys60/pyrepl/pyrepl/pygame_console.py	/^    def move_cursor(self, x, y):$/;"	m	class:PyGameConsole
+move_cursor	pys60/pyrepl/pyrepl/unix_console.py	/^    def move_cursor(self, x, y):$/;"	m	class:UnixConsole
+multiline_input	pys60/pyrepl/pyrepl/readline.py	/^    def multiline_input(self, more_lines, ps1, ps2):$/;"	m	class:_ReadlineWrapper
+next_history	pys60/pyrepl/pyrepl/historical_reader.py	/^class next_history(commands.Command):$/;"	c
+operate_and_get_next	pys60/pyrepl/pyrepl/historical_reader.py	/^class operate_and_get_next(commands.FinishCommand):$/;"	c
+paint_margin	pys60/pyrepl/pyrepl/pygame_console.py	/^    def paint_margin(self):$/;"	m	class:PyGameConsole
+parse_and_bind	pys60/pyrepl/pyrepl/readline.py	/^    def parse_and_bind(self, string):$/;"	m	class:_ReadlineWrapper
+parse_keys	pys60/pyrepl/pyrepl/keymap.py	/^def parse_keys(key):$/;"	f
+parse_keys	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def parse_keys(key):$/;"	f
+pass_all_packets	promiscuous.py	/^	def pass_all_packets(self, dev="eth0"):$/;"	m	class:MySocket
+poll	pys60/pyrepl/pyrepl/unix_console.py	/^        def poll(self, timeout=None):$/;"	m	class:maybe_add_baudrate/poll
+poll	pys60/pyrepl/pyrepl/unix_console.py	/^    class poll:$/;"	c	function:maybe_add_baudrate
+pop_input_trans	pys60/pyrepl/pyrepl/reader.py	/^    def pop_input_trans(self):$/;"	m	class:Reader
+pos2xy	pys60/pyrepl/pyrepl/reader.py	/^    def pos2xy(self, pos):$/;"	m	class:Reader
+prefix	pys60/pyrepl/pyrepl/completing_reader.py	/^def prefix(wordlist, j = 0):$/;"	f
+prepare	pys60/pyrepl/pyrepl/console.py	/^    def prepare(self):$/;"	m	class:Console
+prepare	pys60/pyrepl/pyrepl/historical_reader.py	/^    def prepare(self):$/;"	m	class:HistoricalReader
+prepare	pys60/pyrepl/pyrepl/pygame_console.py	/^    def prepare(self):$/;"	m	class:PyGameConsole
+prepare	pys60/pyrepl/pyrepl/python_reader.py	/^    def prepare(self):$/;"	m	class:ReaderConsole
+prepare	pys60/pyrepl/pyrepl/reader.py	/^    def prepare(self):$/;"	m	class:Reader
+prepare	pys60/pyrepl/pyrepl/unix_console.py	/^    def prepare(self):$/;"	m	class:UnixConsole
+previous_history	pys60/pyrepl/pyrepl/historical_reader.py	/^class previous_history(commands.Command):$/;"	c
+process	pys60/pyrepl/encopyright.py	/^def process(thing):$/;"	f
+process_file	pys60/pyrepl/encopyright.py	/^def process_file(file):$/;"	f
+promiscuous	promiscuous.py	/^	def promiscuous(self, dev="eth0",on=False ):$/;"	m	class:MySocket
+push	pys60/pyrepl/pyrepl/commands.py	/^    def push(self, evt):$/;"	m	class:QITrans
+push	pys60/pyrepl/pyrepl/input.py	/^    def push(self, evt):$/;"	m	class:InputTranslator
+push	pys60/pyrepl/pyrepl/input.py	/^    def push(self, evt):$/;"	m	class:KeymapTranslator
+push	pys60/pyrepl/pyrepl/unix_eventqueue.py	/^    def push(self, char):$/;"	m	class:EventQueue
+push_char	pys60/pyrepl/pyrepl/reader.py	/^    def push_char(self, char):$/;"	m	class:Reader
+push_char	pys60/pyrepl/pyrepl/unix_console.py	/^    def push_char(self, char):$/;"	m	class:UnixConsole
+push_input_trans	pys60/pyrepl/pyrepl/reader.py	/^    def push_input_trans(self, itrans):$/;"	m	class:Reader
+pyrepl_utils_disp_str	pys60/pyrepl/pyrepl_utilsmodule.c	/^pyrepl_utils_disp_str(PyObject* self, PyObject* args)$/;"	f	file:
+pyrepl_utils_disp_str_doc	pys60/pyrepl/pyrepl_utilsmodule.c	/^static char pyrepl_utils_disp_str_doc[] = $/;"	v	file:
+pyrepl_utils_doc	pys60/pyrepl/pyrepl_utilsmodule.c	/^static char pyrepl_utils_doc[] = $/;"	v	file:
+pyrepl_utils_init_unctrl_map	pys60/pyrepl/pyrepl_utilsmodule.c	/^pyrepl_utils_init_unctrl_map(PyObject* self, PyObject* args)$/;"	f	file:
+pyrepl_utils_init_unctrl_map_doc	pys60/pyrepl/pyrepl_utilsmodule.c	/^static char pyrepl_utils_init_unctrl_map_doc[] = $/;"	v	file:
+pyrepl_utils_methods	pys60/pyrepl/pyrepl_utilsmodule.c	/^PyMethodDef pyrepl_utils_methods[] = {$/;"	v
+qIHelp	pys60/pyrepl/pyrepl/commands.py	/^class qIHelp(Command):$/;"	c
+quoted_insert	pys60/pyrepl/pyrepl/commands.py	/^class quoted_insert(Command):$/;"	c
+raw_input	pys60/pyrepl/pyrepl/readline.py	/^    def raw_input(self, prompt=''):$/;"	m	class:_ReadlineWrapper
+read	pys60/pyrepl/pyrepl/pygame_console.py	/^    def read(self, n=None):$/;"	m	class:FakeStdin
+read_history_file	pys60/pyrepl/pyrepl/readline.py	/^    def read_history_file(self, filename='~\/.history'):$/;"	m	class:_ReadlineWrapper
+readline	pys60/pyrepl/pyrepl/pygame_console.py	/^    def readline(self, n=None):$/;"	m	class:FakeStdin
+readline	pys60/pyrepl/pyrepl/reader.py	/^    def readline(self):$/;"	m	class:Reader
+really_tkinteract	pys60/pyrepl/pyrepl/python_reader.py	/^    def really_tkinteract(self):$/;"	m	class:ReaderConsole
+refresh	pys60/pyrepl/pyrepl/commands.py	/^class refresh(Command):$/;"	c
+refresh	pys60/pyrepl/pyrepl/console.py	/^    def refresh(self, screen, xy):$/;"	m	class:Console
+refresh	pys60/pyrepl/pyrepl/pygame_console.py	/^    def refresh(self, screen, (cx, cy)):$/;"	m	class:PyGameConsole
+refresh	pys60/pyrepl/pyrepl/reader.py	/^    def refresh(self):$/;"	m	class:Reader
+refresh	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def refresh(self):$/;"	m	class:TestReader
+refresh	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def refresh(self, screen, xy):$/;"	m	class:TestConsole
+refresh	pys60/pyrepl/pyrepl/unix_console.py	/^    def refresh(self, screen, (cx, cy)):$/;"	m	class:UnixConsole
+register	pys60/pyrepl/pyrepl/unix_console.py	/^        def register(self, fd, flag):$/;"	m	class:maybe_add_baudrate/poll
+remove_history_item	pys60/pyrepl/pyrepl/readline.py	/^    def remove_history_item(self, pos):$/;"	m	class:_ReadlineWrapper
+repaint	pys60/pyrepl/pyrepl/commands.py	/^class repaint(Command):$/;"	c
+repaint	pys60/pyrepl/pyrepl/pygame_console.py	/^    def repaint(self):$/;"	m	class:PyGameConsole
+repaint_prep	pys60/pyrepl/pyrepl/unix_console.py	/^    def repaint_prep(self):$/;"	m	class:UnixConsole
+replace_history_item	pys60/pyrepl/pyrepl/readline.py	/^    def replace_history_item(self, pos, line):$/;"	m	class:_ReadlineWrapper
+replize	pys60/pyrepl/pyrepl/cmdrepl.py	/^def replize(klass, history_across_invocations=1):$/;"	f
+restore	pys60/pyrepl/pyrepl/console.py	/^    def restore(self):$/;"	m	class:Console
+restore	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def restore(self):$/;"	m	class:Term
+restore	pys60/pyrepl/pyrepl/pygame_console.py	/^    def restore(self):$/;"	m	class:PyGameConsole
+restore	pys60/pyrepl/pyrepl/python_reader.py	/^    def restore(self):$/;"	m	class:ReaderConsole
+restore	pys60/pyrepl/pyrepl/reader.py	/^    def restore(self):$/;"	m	class:Reader
+restore	pys60/pyrepl/pyrepl/unix_console.py	/^    def restore(self):$/;"	m	class:UnixConsole
+restore_history	pys60/pyrepl/pyrepl/historical_reader.py	/^class restore_history(commands.Command):$/;"	c
+reverse_history_isearch	pys60/pyrepl/pyrepl/historical_reader.py	/^class reverse_history_isearch(commands.Command):$/;"	c
+right	pys60/pyrepl/pyrepl/commands.py	/^class right(MotionCommand):$/;"	c
+run	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def run(self, test):$/;"	m	class:BasicTestRunner
+run_multiline_interactive_console	pys60/pyrepl/pyrepl/simple_interact.py	/^def run_multiline_interactive_console(mainmodule=None):$/;"	f
+run_test	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^    def run_test(self, test_spec, reader_class=TestReader):$/;"	m	class:ReaderTestCase
+run_testcase	pys60/pyrepl/pyrepl/tests/infrastructure.py	/^def run_testcase(testclass):$/;"	f
+run_user_init_file	pys60/pyrepl/pyrepl/python_reader.py	/^    def run_user_init_file(self):$/;"	m	class:ReaderConsole
+save	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def save(self):$/;"	m	class:Term
+saver	pys60/pyrepl/pyrepl/python_reader.py	/^    def saver(reader=reader):$/;"	f	function:mk_saver
+scan	pys60/scanner.py	/^def scan():$/;"	f
+select_item	pys60/pyrepl/pyrepl/historical_reader.py	/^    def select_item(self, i):$/;"	m	class:HistoricalReader
+self_insert	pys60/pyrepl/pyrepl/commands.py	/^class self_insert(EditCommand):$/;"	c
+self_insert	pys60/pyrepl/pyrepl/completing_reader.py	/^class self_insert(commands.self_insert):$/;"	c
+set	pys60/pyrepl/pyrepl/fancy_termios.py	/^    def set(self, when=termios.TCSANOW):$/;"	m	class:Term
+set_completer	pys60/pyrepl/pyrepl/readline.py	/^    def set_completer(self, function=None):$/;"	m	class:_ReadlineWrapper
+set_completer_delims	pys60/pyrepl/pyrepl/readline.py	/^    def set_completer_delims(self, string):$/;"	m	class:_ReadlineWrapper
+set_cursor_vis	pys60/pyrepl/pyrepl/console.py	/^    def set_cursor_vis(self, vis):$/;"	m	class:Console
+set_cursor_vis	pys60/pyrepl/pyrepl/pygame_console.py	/^    def set_cursor_vis(self, vis):$/;"	m	class:PyGameConsole
+set_cursor_vis	pys60/pyrepl/pyrepl/unix_console.py	/^    def set_cursor_vis(self, vis):$/;"	m	class:UnixConsole
+set_history_length	pys60/pyrepl/pyrepl/readline.py	/^    def set_history_length(self, length):$/;"	m	class:_ReadlineWrapper
+set_startup_hook	pys60/pyrepl/pyrepl/readline.py	/^    def set_startup_hook(self, function=None):$/;"	m	class:_ReadlineWrapper
+spawn	pys60/pyrepl/pyrepl/test/test_functional.py	/^    def spawn(self, argv=[]):$/;"	m	class:TestTerminal
+stub	pys60/pyrepl/pyrepl/readline.py	/^    def stub(*args, **kwds):$/;"	f	function:_make_stub
+suspend	pys60/pyrepl/pyrepl/commands.py	/^class suspend(Command):$/;"	c
+tcgetattr	pys60/pyrepl/pyrepl/fancy_termios.py	/^def tcgetattr(fd):$/;"	f
+tcsetattr	pys60/pyrepl/pyrepl/fancy_termios.py	/^def tcsetattr(fd, when, attrs):$/;"	f
+test	pys60/pyrepl/pyrepl/completing_reader.py	/^def test():$/;"	f
+test	pys60/pyrepl/pyrepl/historical_reader.py	/^def test():$/;"	f
+test	pys60/pyrepl/pyrepl/reader.py	/^def test():$/;"	f
+test	pys60/pyrepl/pyrepl/tests/basic.py	/^def test():$/;"	f
+test	pys60/pyrepl/pyrepl/tests/bugs.py	/^def test():$/;"	f
+test	pys60/pyrepl/pyrepl/tests/wishes.py	/^def test():$/;"	f
+test_backward_kill_word	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_backward_kill_word(self):$/;"	m	class:SimpleTestCase
+test_basic	pys60/pyrepl/pyrepl/test/test_functional.py	/^    def test_basic(self):$/;"	m	class:TestTerminal
+test_basic	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_basic(self):$/;"	m	class:SimpleTestCase
+test_down	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_down(self):$/;"	m	class:SimpleTestCase
+test_interrupt	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_interrupt(self):$/;"	m	class:SimpleTestCase
+test_kill_line	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_kill_line(self):$/;"	m	class:SimpleTestCase
+test_kill_word	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_kill_word(self):$/;"	m	class:SimpleTestCase
+test_left	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_left(self):$/;"	m	class:SimpleTestCase
+test_quoted_insert_repeat	pys60/pyrepl/pyrepl/tests/wishes.py	/^    def test_quoted_insert_repeat(self):$/;"	m	class:WishesTestCase
+test_repeat	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_repeat(self):$/;"	m	class:SimpleTestCase
+test_right	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_right(self):$/;"	m	class:SimpleTestCase
+test_transpose_at_start	pys60/pyrepl/pyrepl/tests/bugs.py	/^    def test_transpose_at_start(self):$/;"	m	class:BugsTestCase
+test_unix_line_discard	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_unix_line_discard(self):$/;"	m	class:SimpleTestCase
+test_up	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_up(self):$/;"	m	class:SimpleTestCase
+test_yank	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_yank(self):$/;"	m	class:SimpleTestCase
+test_yank_pop	pys60/pyrepl/pyrepl/tests/basic.py	/^    def test_yank_pop(self):$/;"	m	class:SimpleTestCase
+tkfilehandler	pys60/pyrepl/pyrepl/python_reader.py	/^    def tkfilehandler(self, file, mask):$/;"	m	class:ReaderConsole
+tkinteract	pys60/pyrepl/pyrepl/python_reader.py	/^    def tkinteract(self):$/;"	m	class:ReaderConsole
+tr_event	pys60/pyrepl/pyrepl/pygame_console.py	/^    def tr_event(self, pyg_event):$/;"	m	class:PyGameConsole
+transpose_characters	pys60/pyrepl/pyrepl/commands.py	/^class transpose_characters(EditCommand):$/;"	c
+twistedinteract	pys60/pyrepl/pyrepl/python_reader.py	/^    def twistedinteract(self):$/;"	m	class:ReaderConsole
+uniqify	pys60/pyrepl/pyrepl/completing_reader.py	/^def uniqify(l):$/;"	f
+unix_line_discard	pys60/pyrepl/pyrepl/commands.py	/^class unix_line_discard(KillCommand):$/;"	c
+unix_word_rubout	pys60/pyrepl/pyrepl/commands.py	/^class unix_word_rubout(KillCommand):$/;"	c
+unparse_key	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def unparse_key(keyseq):$/;"	f
+unparse_keyf	pys60/pyrepl/pyrepl/pygame_keymap.py	/^def unparse_keyf(keyseq):$/;"	f
+up	pys60/pyrepl/pyrepl/commands.py	/^class up(MotionCommand):$/;"	c
+update_cursor	pys60/pyrepl/pyrepl/reader.py	/^    def update_cursor(self):$/;"	m	class:Reader
+update_screen	pys60/pyrepl/pyrepl/reader.py	/^    def update_screen(self):$/;"	m	class:Reader
+wait	pys60/pyrepl/pyrepl/console.py	/^    def wait(self):$/;"	m	class:Console
+wait	pys60/pyrepl/pyrepl/pygame_console.py	/^    def wait(self):$/;"	m	class:PyGameConsole
+wait	pys60/pyrepl/pyrepl/unix_console.py	/^    def wait(self):$/;"	m	class:UnixConsole
+write	pys60/pyrepl/pyrepl/pygame_console.py	/^    def write(self, text):$/;"	m	class:FakeStdout
+write	pys60/pyrepl/pyrepl/pygame_console.py	/^    def write(self, text):$/;"	m	class:PyGameConsole
+write_history_file	pys60/pyrepl/pyrepl/readline.py	/^    def write_history_file(self, filename='~\/.history'):$/;"	m	class:_ReadlineWrapper
+write_line	pys60/pyrepl/pyrepl/pygame_console.py	/^    def write_line(self, line, ret):$/;"	m	class:PyGameConsole
+yank	pys60/pyrepl/pyrepl/commands.py	/^class yank(YankCommand):$/;"	c
+yank_arg	pys60/pyrepl/pyrepl/historical_reader.py	/^class yank_arg(commands.Command):$/;"	c
+yank_pop	pys60/pyrepl/pyrepl/commands.py	/^class yank_pop(YankCommand):$/;"	c

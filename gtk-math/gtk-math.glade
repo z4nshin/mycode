@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Tue Dec 16 23:19:52 2008 -->
+<glade-interface>
+  <widget class="GtkWindow" id="window">
+    <signal name="destroy" handler="gtk_main_quit"/>
+    <child>
+      <widget class="GtkVBox" id="vbox1">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkToolbar" id="toolbar1">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkToolButton" id="play_button">
+                <property name="visible">True</property>
+                <property name="stock_id">gtk-media-play</property>
+              </widget>
+              <packing>
+                <property name="homogeneous">True</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkToolButton" id="refresh_button">
+                <property name="visible">True</property>
+                <property name="stock_id">gtk-refresh</property>
+                <signal name="clicked" handler="on_refresh_button_clicked"/>
+              </widget>
+              <packing>
+                <property name="homogeneous">True</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkHBox" id="hbox1">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkVBox" id="vbox2">
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkLabel" id="var1">
+                    <property name="visible">True</property>
+                    <property name="label" translatable="yes">label</property>
+                    <property name="justify">GTK_JUSTIFY_RIGHT</property>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="GtkLabel" id="var2">
+                    <property name="visible">True</property>
+                    <property name="label" translatable="yes">label</property>
+                    <property name="justify">GTK_JUSTIFY_RIGHT</property>
+                  </widget>
+                  <packing>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="GtkComboBox" id="operation">
+                    <property name="visible">True</property>
+                    <property name="items" translatable="yes">+
+-
+x
+/</property>
+                    <signal name="changed" handler="on_operation_changed"/>
+                  </widget>
+                  <packing>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="GtkEntry" id="answere_entry">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="has_focus">True</property>
+                    <property name="can_default">True</property>
+                    <property name="activates_default">True</property>
+                    <signal name="changed" handler="on_answere_entry_changed"/>
+                    <signal name="activate" handler="on_answere_entry_activate"/>
+                  </widget>
+                  <packing>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkToolButton" id="result_button">
+                <property name="visible">True</property>
+                <property name="stock_id">gtk-yes</property>
+              </widget>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkVBox" id="vbox3">
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkHBox" id="hbox2">
+                    <property name="visible">True</property>
+                    <child>
+                      <widget class="GtkLabel" id="percent">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">0%</property>
+                        <property name="width_chars">3</property>
+                        <property name="max_width_chars">3</property>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkVBox" id="vbox4">
+                        <property name="visible">True</property>
+                        <child>
+                          <widget class="GtkLabel" id="right_label">
+                            <property name="visible">True</property>
+                            <property name="label" translatable="yes">0</property>
+                          </widget>
+                        </child>
+                        <child>
+                          <widget class="GtkLabel" id="wrong_label">
+                            <property name="visible">True</property>
+                            <property name="label" translatable="yes">0</property>
+                          </widget>
+                          <packing>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </widget>
+                      <packing>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="GtkSpinButton" id="max_spin">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="adjustment">10 1 1000 1 10 10</property>
+                    <property name="numeric">True</property>
+                    <signal name="value_changed" handler="on_max_spin_value_changed"/>
+                    <signal name="change_value" handler="on_max_spin_change_value"/>
+                  </widget>
+                  <packing>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="GtkSpinButton" id="min_spin">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="adjustment">0 0 100 1 10 10</property>
+                    <signal name="value_changed" handler="on_min_spin_value_changed"/>
+                    <signal name="change_value" handler="on_min_spin_change_value"/>
+                  </widget>
+                  <packing>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="GtkHBox" id="hbox3">
+                    <property name="visible">True</property>
+                    <child>
+                      <widget class="GtkToggleButton" id="timer_button">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="label" translatable="yes">Timer on/off</property>
+                        <property name="response_id">0</property>
+                        <signal name="toggled" handler="on_timer_button_toggled"/>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkSpinButton" id="timer_spinbutton">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="adjustment">1 1 100 1 10 10</property>
+                        <signal name="value_changed" handler="on_timer_spinbutton_value_changed"/>
+                      </widget>
+                      <packing>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkStatusbar" id="statusbar1">
+            <property name="visible">True</property>
+            <property name="spacing">2</property>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

